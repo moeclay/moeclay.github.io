@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arza Technology</title>
+    <description>Visi untuk menjadi visioner teknologi !
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 21 Sep 2018 06:25:16 +0700</pubDate>
+    <lastBuildDate>Fri, 21 Sep 2018 06:25:16 +0700</lastBuildDate>
+    <generator>Jekyll v3.8.4</generator>
+    
+      <item>
+        <title>Penggunaan RSS</title>
+        <description>&lt;p&gt;RSS is Rich Site Sumary, or Really Simple Syndication.&lt;/p&gt;
+
+&lt;p&gt;Yeah, itulah kepanjangan rss. &lt;br /&gt;
+Konsep? Seperti ini : anda tidak punya waktu untuk mengunjungi setiap blog dan situs web yang anda sukai setiap hari untuk mencari tahu apakah mereka telah memperbaharui kontennya.&lt;/p&gt;
+
+&lt;p&gt;Untuk itu, maka gunakanlah teknologi rss ini.&lt;/p&gt;
+
+&lt;p&gt;Di rss ada istilah feed (umpan/makanan) kita sebut saja, &lt;b&gt;pancingan&lt;/b&gt; karena rss menggunakan data dalam format .xml yg berisi daftar konten dan feed inilah yang akan menjadi pancingan seluruh konten.&lt;/p&gt;
+
+&lt;h3 id=&quot;cara-penggunaannya-&quot;&gt;cara penggunaannya :&lt;/h3&gt;
+
+&lt;p&gt;Install extension/plugin blowser, jika di chrome &lt;b&gt;RSS Feed Reader&lt;/b&gt; dan jika di firefox &lt;b&gt;Simple RSS Reader&lt;/b&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jika sudah terinstall [klik icon rss]&lt;/li&gt;
+  &lt;li&gt;add (+)&lt;/li&gt;
+  &lt;li&gt;akan terbuka halaman rss&lt;/li&gt;
+  &lt;li&gt;masukan alamat contoh : “https://site.com/feed.xml”&lt;/li&gt;
+  &lt;li&gt;search -&amp;gt; add -&amp;gt; save.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Biasanya beberapa website sudah menyediakan link untuk berlangganan ke rss mereka.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Sep 2018 08:00:00 +0700</pubDate>
+        <link>http://localhost:4000/automation/2018/09/20/penggunaan-rss.html</link>
+        <guid isPermaLink="true">http://localhost:4000/automation/2018/09/20/penggunaan-rss.html</guid>
+        
+        
+        <category>automation</category>
+        
+      </item>
+    
+      <item>
+        <title>Perkenalan dengan Ruby !</title>
+        <description>&lt;p&gt;Untuk dokumentasi yg lengkap kunjungi : &lt;a href=&quot;https://www.ruby-lang.org/&quot;&gt;Ruby Site&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Disini saya menggunakan linux, berikut : &lt;br /&gt;
+Buka terminal, masuk ke akun &lt;b&gt;root (#)&lt;/b&gt; terlebih dahulu. Lalu ikuti saya command berikut :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;apt install ruby&lt;/li&gt;
+  &lt;li&gt;apt install ruby-dev&lt;/li&gt;
+  &lt;li&gt;ruby -v&lt;/li&gt;
+  &lt;li&gt;gem update –system&lt;/li&gt;
+  &lt;li&gt;apt install gcc rubygems&lt;/li&gt;
+  &lt;li&gt;gem install compass&lt;/li&gt;
+  &lt;li&gt;gem install jekyll&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Contoh sederhana ruby :&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;my name is , &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'moeclay'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'my name is , moeclay' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Wed, 19 Sep 2018 07:10:45 +0700</pubDate>
+        <link>http://localhost:4000/ruby/2018/09/19/perkenalan-dengan-ruby.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ruby/2018/09/19/perkenalan-dengan-ruby.html</guid>
+        
+        
+        <category>ruby</category>
+        
+      </item>
+    
+      <item>
+        <title>Catatan Jekyll</title>
+        <description>&lt;div&gt;
+&lt;p&gt;&lt;b&gt;1. file: .gitignore &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;File ini digunakan untuk mengabaikan file-file atau folder-folder yg biasanya berisi file-file konfigurasi.&lt;/p&gt;
+
+&lt;p&gt;Seperti file : _config.yml dan folder : (_site, sass-cache).&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;p&gt;&lt;b&gt;2. file: _config.yml &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;File ini digunakan untuk konfigurasi awal file-file jekyll. Disini bisa dibuat variable untuk nilai dasar (inisialisasi). Bisanya terletak di folder root.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;p&gt;&lt;b&gt;3. file: feed.xml &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;File ini digunakan untuk RSS (Really Simple Syndication) untuk melihat dan meload dan mengumpulkan dengan cepat beruta utama dari website.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 18 Sep 2018 08:00:00 +0700</pubDate>
+        <link>http://localhost:4000/catatan/2018/09/18/catatan-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/catatan/2018/09/18/catatan-jekyll.html</guid>
+        
+        
+        <category>catatan</category>
+        
+      </item>
+    
+      <item>
+        <title>Blog Pertama</title>
+        <description>&lt;p&gt;Hai Ini Blog Pertama&lt;/p&gt;
+
+&lt;p&gt;Ini blog pertama saya di github, saya menggunakan jekyll (site static generator).&lt;/p&gt;
+
+&lt;p&gt;Saya tertarik dengan desain codenya yg bersih dan tertata. Generator ini berbasis ruby, this is simple choice.&lt;/p&gt;
+
+&lt;p&gt;Mungkin nanti ke depannya kita akan bahas seputas ruby, dan implementasinya. &lt;b&gt;Semangat&lt;/b&gt; demi ilmu pengetahuan.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Sep 2018 08:00:00 +0700</pubDate>
+        <link>http://localhost:4000/catatan/2018/09/18/blog-pertama.html</link>
+        <guid isPermaLink="true">http://localhost:4000/catatan/2018/09/18/blog-pertama.html</guid>
+        
+        
+        <category>catatan</category>
+        
+      </item>
+    
+  </channel>
+</rss>

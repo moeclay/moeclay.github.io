@@ -1,0 +1,16 @@
+# Site Settings
+title: Arza Technology
+email: moeamarreza@gmail.com
+description: >
+  Visi untuk menjadi visioner teknologi !
+baseurl: ""
+url: "http://127.0.0.1:4000"
+twitter_username: moeclay
+github_username:  moeclay
+
+# Build Settings
+sass:
+  sass_dir: _sass
+include: [_pages]
+kramdown:
+  input: GFM
