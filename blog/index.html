@@ -6,10 +6,9 @@ aside:
 
 <h2>Daftar Blog</h2>
 {% for post in site.posts %}
-		<time>{{ post.date | date: "%b %-d, %Y" }}</time>
+		<small><time>{{ post.date | date: "%b %-d, %Y" }}</time></small>
 		<h4 style="margin-top: 0.5px;"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
 {% endfor %}
 
-<br>
 <p>Berlangganan <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
