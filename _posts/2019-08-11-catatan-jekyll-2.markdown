@@ -37,7 +37,7 @@ public class BelajarJekyll {
 </code>
 <br>
 Beberapa bahasa pemrograman yang didukung :
-
+</div>
 * Cucumber (‘*.feature’)
 * abap (‘*.abap’)
 * ada (‘.adb’, ‘.ads’, ‘*.ada’)
@@ -162,12 +162,10 @@ Beberapa bahasa pemrograman yang didukung :
 * xquery (‘.xqy’, ‘.xquery’)
 * xslt (‘.xsl’, ‘.xslt’)
 * yaml (‘.yaml’, ‘.yml’)
-</div>
 
 <div>
 	<p><b>3. Templating Jekyll</b></p>
-	<p>Jekyll menggunakan templating yang bernama liquid. Untuk dokumentasinya lihat di [Liquid Website][ref2].</p>
+	<p>Jekyll menggunakan templating yang bernama liquid. Untuk dokumentasinya lihat di <a href="https://shopify.github.io/liquid/">Liquid Website</a></p>
 </div>
 
 [ref1]: https://jekyllrb.com
-[ref2]: https://shopify.github.io/liquid/
