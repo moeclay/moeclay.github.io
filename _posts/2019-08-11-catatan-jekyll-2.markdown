@@ -15,12 +15,12 @@ Dokumentasi Lengkap tentang jekyll di [Jekyllrb][ref1]
 </div>
 
 <div>
-	<p><b>1. membuat link</b></p>
+	<p><b>1. Membuat Link</b></p>
 	<p>Untuk membuat link bisa menggunakan [title][ref1] ini diletakan di body content dan [ref1]: url-nya diletakan di bawah content.</p>
 </div>
 
 <div>
-	<p><b>2. membuat highlight</b></p>
+	<p><b>2. Membuat Highlight</b></p>
 {% highlight java %}
 
 public class BelajarJekyll {
