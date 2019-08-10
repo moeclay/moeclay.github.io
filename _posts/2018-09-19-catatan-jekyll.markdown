@@ -21,5 +21,5 @@ categories: catatan
 
 <div>
 <p><b>3. file: feed.xml </b></p>
-<p>File ini digunakan untuk RSS (Really Simple Syndication) untuk melihat dan meload dan mengumpulkan dengan cepat beruta utama dari website.</p>
+<p>File ini digunakan untuk RSS (Really Simple Syndication) untuk melihat dan meload dan mengumpulkan dengan cepat berita utama dari website.</p>
 </div>
