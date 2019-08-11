@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pelrintah Bash Linux
+title: Perintah Bash Linux
 date: 2019-08-11 13:00:00
 author: doctor. moeclay
 categories: bash
