@@ -9,8 +9,8 @@ categories: linuxsys
 <div>
 <p><b>CopyFile via Remote</b></p>
 <p>Terkadang kita butuh untuk memindahkan file dari pc lokal ke pc remote dan sebaliknya, disini kita akan mencoba dengan 2 tool: </p>
-*1. scp
-*2. rsync
+*scp
+*rsync
 <p>Disini kita analogikan server berada di ip: 10.10.5.6 dengan user: alex dan kita akan memindahkan ke folder ~/Desktop.</p>
 
 {% highlight bash  %}
