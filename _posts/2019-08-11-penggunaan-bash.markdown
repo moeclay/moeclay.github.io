@@ -25,9 +25,27 @@ done
 <p>Perintah ini digunakan untuk memanipulasi perintah bash</p>
 
 {% highlight bash %}
-#!/bin/bash
 alias c='clear'
 alias blog='cd /home/alex/blog'
+{% endhighlight %}
+
+<p>Untuk membatalkan alias bisa menggunakan : </p>
+
+{% highlight bash %}
+unalias c
+unalias blog
+{% endhighlight %}
+
+</div>
+<div>
+<p><b>3. Privileged Access</b></p>
+<p>Untuk menggunakan command alias tanpa menggunakan perintah root.</p>
+
+{% highlight bash %}
+if [ $UID -ne 0 ]; then
+  alias update='sudo apt-get update'
+  alias upgrade='sudo apt-get upgrade'
+fi
 {% endhighlight %}
 
 </div>
