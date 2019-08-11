@@ -56,7 +56,7 @@ fi
 <p><b>4. Select Case</b></p>
 <p>Untuk memilih sesuai parameter yang ditentukan.</p>
 
-{% hlighlight bash %}
+{% highlight bash %}
 _myos="$(uname)"
 
 case $_myos in
