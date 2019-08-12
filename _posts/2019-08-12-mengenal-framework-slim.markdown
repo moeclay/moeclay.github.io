@@ -30,4 +30,22 @@ $app->get('/hello/{name}', function($request, $response, $args){
 // run app
 $app->run();
 {% endhighlight %}
+
+<p><b>Kebutuhan System</b></p>
+<ul>
+<li>Web Server</li>
+<li>PHP 5.5 atau terbaru</li>
+</ul>
+
+<p><b>Cara Menginstall</b></p>
+<p>Untuk menginstall gunakan : composer.</p>
+{% highlight bash %}
+composer require slim/slim
+{% endhighlight %}
+
+<p><b>Cara Load Vendor Library</b></p>
+{% highlight php %}
+<?php
+require __DIR__.'/vendor/autoload.php';
+{% endhighlight %}
 </div>
