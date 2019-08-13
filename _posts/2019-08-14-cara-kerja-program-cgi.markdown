@@ -26,6 +26,7 @@ categories: python
 <p>Program cgi memberikan kembali hasil sesuai permintaan Server Http.</p>
 <p>Server Http akan mengirim ke web browser client.</p>
 
+<p><b>Berikut script python cgi: </b></p>
 {% highlight python %}
 #!/usr/bin/python
 from __future__ import print_function
