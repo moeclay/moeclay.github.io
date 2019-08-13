@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Menjalankan Program dengan Bahasa C 
-date: 2019-08-12 00:52:00
+date: 2019-08-13 00:52:00
 author: doctor. moeclay
 categories: cprogramming
 ---
