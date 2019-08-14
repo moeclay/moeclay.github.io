@@ -70,3 +70,83 @@ print("""Content-type: text/html\r\n\r\n
 """)
 {% endhighlight %}
 </div>
+
+<div>
+<p><b>Membuat Daftar</b></p>
+<p>Buatlah file : list.py</p>
+{% highlight python %}
+#!/usr/bin/python
+#file: list.py
+from __future__ import print_function
+
+print("""Content-type: text/html\r\n\r\n
+<html>
+<head>
+<title>Membuat Daftar</title>
+</head>
+<body>
+<h3>Membuat List di Python</h3>
+<p>Daftar Belanja: </p>
+<ul>
+<li>Apel</li>
+<li>Pisang</li>
+<li>Mangga</li>
+<li>Semangaka</li>
+</ul>
+</body>
+</html>
+""")
+{% endhighlight %}
+</div>
+
+<div>
+<p><b>Membuat Table</b></p>
+<p>Buatlah file : table.py</p>
+{% highlight python %}
+#!/usr/bin/python
+#file: table.py
+from __future__ import print_function
+
+print("""Content-type: text/html\r\n\r\n
+<html>
+<head>
+<title>Membuat Table</title>
+</head>
+<body>
+<h3>Membuat Table di Python</h3>
+<p>Nama penemu bahasa pemrograman</p>
+<table border="1">
+<tr>
+<th>Bahasa Pemrograman</th>
+<th>Nama Penemu</th>
+</tr>
+<tr>
+<td>Bahasa Perl</td>
+<td>Larry Wall</td>
+</tr>
+<tr>
+<td>Bahasa Ruby</td>
+<td>Yukihiro Matsumoto</td>
+</tr>
+<tr>
+<td>Bahasa C</td>
+<td>Dennis Ritchie</td>
+</tr>
+<tr>
+<td>Bahasa C++</td>
+<td>Bjarne Stroustrup</td>
+</tr>
+<tr>
+<td>Bahasa Java</td>
+<td>James Gosling</td>
+</tr>
+<tr>
+<td>Bahasa Python</td>
+<td>Guido Van Rossum</td>
+</tr>
+</table>
+</body>
+</html>
+""")
+{% endhighlight %}
+</div>
