@@ -48,3 +48,25 @@ print("""Content-type: text/html\r\n\r\n
 {% endhighlight %}
 
 </div>
+
+<div>
+<p><b>Menampilkan Gambar di CGI </b></p>
+<p>Buatlah file : gambar.py</p>
+{% highlight python %}
+#!/usr/bin/python
+#file: gambar.py
+from __future__ import print_function
+
+print("""Content-type: text/html\r\n\r\n
+<html>
+<head>
+<title>Load Gambar</title>
+</head>
+<body>
+<h3>Menampilkan Gambar di CGI Python</h3>
+<img src="http://localhost/cdn/img/pylogo.png" alt="Gambar Python" />
+</body>
+</html>
+""")
+{% endhighlight %}
+</div>
