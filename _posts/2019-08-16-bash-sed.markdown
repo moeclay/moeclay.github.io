@@ -13,11 +13,6 @@ categories: bash
 <p>Dengan SED anda dapat mengedit file tanpa membukanya.</p>
 <p>SED menddukung ekspresi regular yang memungkinkan melakukan pencocokan pola yang kompleks.</p>
 
-<p><b>Syntak: </b></p>
-{% highlight bash %}
-sed OPTIONS [SCRIPT][INPUTFILE]
-{% endhighlight %}
-
 <div>
 Buatlah file txt berupa:<br>
 unix is great os. unix is opensource. unix is free os.
