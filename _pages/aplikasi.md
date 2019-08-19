@@ -13,6 +13,6 @@ permalink: /aplikasi
 }
 </style>
 
-<!-- content -->
 <div id="styleaplikasi">
+<p>hallo world !</p>
 </div>
