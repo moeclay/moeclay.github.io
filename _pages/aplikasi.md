@@ -6,6 +6,7 @@ permalink: /aplikasi
 
 <style>
 #styleaplikasi {
+  float: left;
   text-decoration: none;
   color: #fff;
   border: 2px solid #000;
@@ -16,6 +17,14 @@ permalink: /aplikasi
   width: 200px;
 }
 </style>
+
+<div id="styleaplikasi">
+  <a href="/"><p>Convert PDF</p></a>
+</div>
+
+<div id="styleaplikasi">
+  <a href="/"><p>Convert PDF</p></a>
+</div>
 
 <div id="styleaplikasi">
   <a href="/"><p>Convert PDF</p></a>
