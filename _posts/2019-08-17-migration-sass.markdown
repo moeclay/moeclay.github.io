@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Migrasi ke SASS
-date: 2019-08-17 16:00:00
+date: 2019-08-19 14:00:00
 author: doctor. moeclay
 categories: ruby
 ---
@@ -14,7 +14,7 @@ categories: ruby
 
 <p><b>Cara Install sass:</b></p>
 {% highlight bash %}
-gem install sass
+$ gem install sass
 {% endhighlight %}
 
 <p><b>Menjalankan Simple Server Ruby:</b></p>
