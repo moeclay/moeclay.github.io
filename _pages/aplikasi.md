@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Aplikasi
-permalink: /aplikasi/
+permalink: /aplikasi
 ---
 
 Tes Aplikasi Page !
