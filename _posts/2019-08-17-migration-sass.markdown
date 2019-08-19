@@ -31,27 +31,28 @@ $ sass --watch style.scss:style.css
 <p><b>Latihan Dengan Script</b></p>
 <p>Buat 2 buah script: index.html dan style.scss</p>
 <p>file: index.html</p>
-{% highlight html%}
+{% highlight html %}
 <html>
    <head>
       <title> Import example of sass</title>
-      <link rel = "stylesheet" type = "text/css" href = "style.css"/>
+      <link rel="stylesheet" type="text/css" href="style.css"/>
    </head>
 
    <body>
       <h1>Simple Example</h1>
       <h3>Welcome to TutorialsPoint</h3>
-      <p class = "class1">Welcome to Tutorialspoint!!!</p>
-      <p class = "class2">SASS stands for Syntactically Awesome Stylesheet...</p>
+      <p class="class1">Welcome to Tutorialspoint!!!</p>
+      <p class="class2">SASS stands for Syntactically Awesome Stylesheet...</p>
       <br>
-      <p class = "tutorialpoint">Tutorial point posting.</p>
-      <p class = "lastname">Reza R</p>
+      <p class="tutorialpoint">Tutorial point posting.</p>
+      <p class="lastname">Reza R</p>
    </body>
 </html>
 {% endhighlight %}
 
+<br/>
 <p>file: style.scss</p>
-{% highlight css %}
+{% highlight scss %}
 $version: "1.2";
 $author: "Moeclay IO";
 $txtcolor: 'yellow';
