@@ -15,6 +15,7 @@ permalink: /aplikasi
   background:#1D1425;
   text-align:center;
   width: 200px;
+  margin: 10px;
 }
 </style>
 
@@ -29,3 +30,5 @@ permalink: /aplikasi
 <div id="styleaplikasi">
   <a href="/"><p>Convert PDF</p></a>
 </div>
+
+<p style="clear: both;"></p>
