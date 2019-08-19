@@ -19,16 +19,25 @@ permalink: /aplikasi
 }
 </style>
 
+<p>Beberapa aplikasi yang saya berhasil buat: </p>
 <div id="styleaplikasi">
   <a href="/"><p>Convert PDF</p></a>
 </div>
 
 <div id="styleaplikasi">
-  <a href="/"><p>Convert PDF</p></a>
+  <a href="/"><p>Cek Cuaca</p></a>
 </div>
 
 <div id="styleaplikasi">
-  <a href="/"><p>Convert PDF</p></a>
+  <a href="/"><p>Speed Test</p></a>
+</div>
+
+<div id="styleaplikasi">
+  <a href="/"><p>Download Youtube</p></a>
+</div>
+
+<div id="styleaplikasi">
+  <a href="/"><p>Download Cepat</p></a>
 </div>
 
 <p style="clear: both;"></p>
