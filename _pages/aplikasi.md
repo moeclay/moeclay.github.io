@@ -7,12 +7,11 @@ permalink: /aplikasi
 <style>
 #styleaplikasi {
   border: 2px solid #000;
-  width: 200px;
-  height: 750px;
-  background-color: #456;
+  background-color: #eee;
+  padding: 5px;
 }
 </style>
 
 <div id="styleaplikasi">
-<p>hallo world !</p>
+<a href="/"><p>Convert PDF</p></a>
 </div>
