@@ -7,8 +7,8 @@ permalink: /aplikasi
 <style>
 #styleaplikasi {
   border: 2px solid #000;
-  width: 500px;
-  height: 200px;
+  width: 200px;
+  height: 750px;
   background-color: #456;
 }
 </style>
