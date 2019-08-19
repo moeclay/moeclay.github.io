@@ -11,6 +11,9 @@ permalink: /aplikasi
   padding: 5px 25px;
   background:#1D1425;
   text-align:center;
+  text-decoration: none;
+  color: #fff;
+  width: 200px;
 }
 </style>
 
