@@ -1,0 +1,140 @@
+---
+layout: post
+title: Penggunaan GIT
+date: 2019-08-19 14:00:00
+author: doctor. moeclay
+categories: github
+---
+
+-- Buat Repository Baru:
+{% highlight bash %}
+$ git init
+{% endhighlight %}
+
+
+
+-- Periksa Repository:
+{% highlight bash %}
+#buat salinan ke folder lokal
+$ git clone /jalur/ke/repositori
+
+#saat menggunakan server jarak-jauh
+$ git clone namapengguna@host:/jalur/ke/repositori
+{% endhighlight %}
+
+
+-- Struktur Folder Kerja:
+Repositori lokal kamu terdiri dari tiga bagian pokok yang disebut "trees" dikelola oleh git.
+- Direktori Kerja yang menyimpan berkas aktual.
+- Indeks yang berperan sebagai pengolah data.
+- HEAD yang mengarah pada komit terakhir. 
+
+
+
+-- Tambah dan Komit:
+#penambahan data ke index
+$ git add <namaberkas>
+$ git add *
+
+#penambahan ke head
+$ git commit -m "Pesan komit"
+
+
+
+-- Mengirim Perubahan:
+#mengirim ke repositori jarak jauh
+#ubah maser sesuai cabang yg kamu inginkan
+$ git push origin master
+
+#jika berlum terkloning dan ingin dihubungkan ke server jarak jauh
+$ git remote add origin <server>
+
+
+
+-- Percabangan
+Branching digunakan untuk mengembangkan fitur-fitur secara terisolasi. Cabang utama atau master merupakan cabang bawaan ketika kamu membuat repositori. Gunakan cabang lain untuk pengembangan, setelah selesai, gabungkan kembali ke cabang utama. 
+
+#buat cabang baru dg nama "fitur_x" dan beralih ke dalamnya
+$ git checkout -b fitur_x
+
+#beralih kembali ke master
+$ git checkout master
+
+#hapus cabang yang tadi dibuat
+$ git branch -d fitur_x
+
+suatu cabang tidak terbuka untuk yang lainnya kecuali jika kamu mengirimkannya ke repositori jarak-jauh.
+
+$ git push origin <cabang>
+
+
+
+-- Perbarui & Gabung
+#memperbarui repositori lokal ke comit terkini
+$ git pull
+
+#menggabungkan cabang lain ke cabang aktif
+$ git merge <cabang>
+
+#jika terjadi konflik, ubah berkas yg ditunjuk git dab mermarkahinya
+$ git add <namaberkas>
+
+#sebelum pergabungkan berlaku, lakukan tinjau
+$ git diff <cabang_asal> <cabang_tujuan>
+
+
+
+-- Menandai
+Sangat dianjurkan membuat penanda atau tags untuk perangkat lunak yang dirilis.
+$ git tag 1.0.0 1b2e1d63ff
+
+1b2e1d63ff adalah 10 karakter pertama dari identitas komit yang ingin kamu referensikan ke penanda.
+
+
+-- Log
+#pelajari log dasar
+$ git log
+
+#menambah sesuai parameter yg diinginkan
+#author
+$ git log --author=moeclay
+
+#tampil log yg dimampatkan
+$ git log --pretty=oneline
+
+#seluruh pohon percabangan ascii disertai nama penandanya
+$ git log --graph --oneline --decorate --all
+
+#melihat berkas yg berubah
+$ git log --name-status
+
+#dokumentasi lanjut
+$ git log --help
+
+
+
+-- Mengembalikan Perubahan Lokal
+#jika kamu membuat kesalahan, bisa mengembalikannya ke konten terakhir
+$ git checkout -- <namaberkas>
+
+#kembali berdasarkan git enkripsi
+$ git reset --hard fc3238fc0d847b6e27ae1c6351884f61f06fdacf
+
+# menggugurkan suutuhnya komit lokal, ambil riwayat terakhir server dan arahkan ke cabang master lokal
+$ git fetch origin
+$ git reset --hard origin/master
+
+
+
+-- Petunjuk Berguna
+# gui git bawaan
+$ gitk
+
+#output git penuh warna
+git config color.ui true
+
+#menunjukan log satu baris per komit
+$ git config format.pretty online
+
+#menggunakan penambahan interaktif
+git add -i
