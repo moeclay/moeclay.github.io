@@ -6,14 +6,14 @@ author: doctor. moeclay
 categories: github
 ---
 
--- Buat Repository Baru:
+<p><b>Buat Repository Baru:</b></p>
 {% highlight bash %}
 $ git init
 {% endhighlight %}
 
 
 
--- Periksa Repository:
+<p><b>Periksa Repository:<b></p>
 {% highlight bash %}
 #buat salinan ke folder lokal
 $ git clone /jalur/ke/repositori
@@ -23,7 +23,7 @@ $ git clone namapengguna@host:/jalur/ke/repositori
 {% endhighlight %}
 
 
--- Struktur Folder Kerja:
+<p><b>Struktur Folder Kerja:</b></p>
 Repositori lokal kamu terdiri dari tiga bagian pokok yang disebut "trees" dikelola oleh git.
 - Direktori Kerja yang menyimpan berkas aktual.
 - Indeks yang berperan sebagai pengolah data.
@@ -31,29 +31,34 @@ Repositori lokal kamu terdiri dari tiga bagian pokok yang disebut "trees" dikelo
 
 
 
--- Tambah dan Komit:
+<p><b>Tambah dan Komit:</b></p>
+{% highlight bash %}
 #penambahan data ke index
 $ git add <namaberkas>
 $ git add *
 
 #penambahan ke head
 $ git commit -m "Pesan komit"
+{% endhighlight %}
 
 
 
--- Mengirim Perubahan:
+<p><b>Mengirim Perubahan:</b></p>
+{% highlight bash %}
 #mengirim ke repositori jarak jauh
 #ubah maser sesuai cabang yg kamu inginkan
 $ git push origin master
 
 #jika berlum terkloning dan ingin dihubungkan ke server jarak jauh
 $ git remote add origin <server>
+{% endhighlight %}
 
 
 
--- Percabangan
+<p><b>Percabangan</b></p>
 Branching digunakan untuk mengembangkan fitur-fitur secara terisolasi. Cabang utama atau master merupakan cabang bawaan ketika kamu membuat repositori. Gunakan cabang lain untuk pengembangan, setelah selesai, gabungkan kembali ke cabang utama. 
 
+{% highlight bash %}
 #buat cabang baru dg nama "fitur_x" dan beralih ke dalamnya
 $ git checkout -b fitur_x
 
@@ -63,13 +68,13 @@ $ git checkout master
 #hapus cabang yang tadi dibuat
 $ git branch -d fitur_x
 
-suatu cabang tidak terbuka untuk yang lainnya kecuali jika kamu mengirimkannya ke repositori jarak-jauh.
-
+#suatu cabang tidak terbuka untuk yang lainnya kecuali jika kamu mengirimkannya ke repositori jarak-jauh.
 $ git push origin <cabang>
+{% endhighlight %}
 
 
-
--- Perbarui & Gabung
+<p><b>Perbarui & Gabung:</b>/p<>
+{% highlight bash %}
 #memperbarui repositori lokal ke comit terkini
 $ git pull
 
@@ -81,22 +86,25 @@ $ git add <namaberkas>
 
 #sebelum pergabungkan berlaku, lakukan tinjau
 $ git diff <cabang_asal> <cabang_tujuan>
+{% endhighlight %}
 
 
-
--- Menandai
+<p><b>Menandai</b></p>
 Sangat dianjurkan membuat penanda atau tags untuk perangkat lunak yang dirilis.
+{% highlight bash %}
+#membuat tag
 $ git tag 1.0.0 1b2e1d63ff
-
+{% endhighlight %}
 1b2e1d63ff adalah 10 karakter pertama dari identitas komit yang ingin kamu referensikan ke penanda.
 
 
--- Log
+<p><b>Log</b></p>
+{% highlight bash %}
 #pelajari log dasar
 $ git log
 
 #menambah sesuai parameter yg diinginkan
-#author
+#misalnya: author
 $ git log --author=moeclay
 
 #tampil log yg dimampatkan
@@ -110,24 +118,26 @@ $ git log --name-status
 
 #dokumentasi lanjut
 $ git log --help
+{% endhighlight %}
 
 
-
--- Mengembalikan Perubahan Lokal
+<p><b>Mengembalikan Perubahan Lokal:</b></p>
+{% highlight bash %}
 #jika kamu membuat kesalahan, bisa mengembalikannya ke konten terakhir
 $ git checkout -- <namaberkas>
 
 #kembali berdasarkan git enkripsi
 $ git reset --hard fc3238fc0d847b6e27ae1c6351884f61f06fdacf
 
-# menggugurkan suutuhnya komit lokal, ambil riwayat terakhir server dan arahkan ke cabang master lokal
+#menggugurkan suutuhnya komit lokal, ambil riwayat terakhir server dan arahkan ke cabang master lokal
 $ git fetch origin
 $ git reset --hard origin/master
+{% endhighlight %}
 
 
-
--- Petunjuk Berguna
-# gui git bawaan
+<p><b>Petunjuk Berguna:</b></p>
+{% highlight bash %}
+#gui git bawaan
 $ gitk
 
 #output git penuh warna
@@ -138,3 +148,4 @@ $ git config format.pretty online
 
 #menggunakan penambahan interaktif
 git add -i
+{% endhighlight %}
