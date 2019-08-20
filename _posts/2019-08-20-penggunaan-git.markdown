@@ -13,7 +13,7 @@ $ git init
 
 
 
-<p><b>Periksa Repository:<b></p>
+<p><b>Periksa Repository:</b></p>
 {% highlight bash %}
 #buat salinan ke folder lokal
 $ git clone /jalur/ke/repositori
@@ -24,10 +24,12 @@ $ git clone namapengguna@host:/jalur/ke/repositori
 
 
 <p><b>Struktur Folder Kerja:</b></p>
-Repositori lokal kamu terdiri dari tiga bagian pokok yang disebut "trees" dikelola oleh git.
-- Direktori Kerja yang menyimpan berkas aktual.
-- Indeks yang berperan sebagai pengolah data.
-- HEAD yang mengarah pada komit terakhir. 
+<p>Repositori lokal kamu terdiri dari tiga bagian pokok yang disebut "trees" dikelola oleh git.</p>
+<ul>
+<li>Direktori Kerja yang menyimpan berkas aktual.</li>
+<li>Indeks yang berperan sebagai pengolah data.</li>
+<li>HEAD yang mengarah pada komit terakhir</li>
+</ul>
 
 
 
@@ -55,8 +57,8 @@ $ git remote add origin <server>
 
 
 
-<p><b>Percabangan</b></p>
-Branching digunakan untuk mengembangkan fitur-fitur secara terisolasi. Cabang utama atau master merupakan cabang bawaan ketika kamu membuat repositori. Gunakan cabang lain untuk pengembangan, setelah selesai, gabungkan kembali ke cabang utama. 
+<p><b>Percabangan:</b></p>
+<p>Branching digunakan untuk mengembangkan fitur-fitur secara terisolasi. Cabang utama atau master merupakan cabang bawaan ketika kamu membuat repositori. Gunakan cabang lain untuk pengembangan, setelah selesai, gabungkan kembali ke cabang utama.</p>
 
 {% highlight bash %}
 #buat cabang baru dg nama "fitur_x" dan beralih ke dalamnya
@@ -73,7 +75,7 @@ $ git push origin <cabang>
 {% endhighlight %}
 
 
-<p><b>Perbarui & Gabung:</b>/p<>
+<p><b>Perbarui & Gabung:</b></p>
 {% highlight bash %}
 #memperbarui repositori lokal ke comit terkini
 $ git pull
@@ -89,16 +91,16 @@ $ git diff <cabang_asal> <cabang_tujuan>
 {% endhighlight %}
 
 
-<p><b>Menandai</b></p>
-Sangat dianjurkan membuat penanda atau tags untuk perangkat lunak yang dirilis.
+<p><b>Menandai:</b></p>
+<p>Sangat dianjurkan membuat penanda atau tags untuk perangkat lunak yang dirilis.</p>
 {% highlight bash %}
 #membuat tag
 $ git tag 1.0.0 1b2e1d63ff
 {% endhighlight %}
-1b2e1d63ff adalah 10 karakter pertama dari identitas komit yang ingin kamu referensikan ke penanda.
+<p>1b2e1d63ff adalah 10 karakter pertama dari identitas komit yang ingin kamu referensikan ke penanda.</p>
 
 
-<p><b>Log</b></p>
+<p><b>Log:</b></p>
 {% highlight bash %}
 #pelajari log dasar
 $ git log
