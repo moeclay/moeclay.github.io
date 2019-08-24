@@ -7,36 +7,41 @@ categories: windows
 ---
 
 <div>
-Dalam beberapa kasus kita ingin mengakses remote desktop tanpa password di windows.
-Berikut Caranya :
+<p>Dalam beberapa kasus kita ingin mengakses remote desktop tanpa password di windows.
+Berikut Caranya :</p>
 <p><b>menggunakan gpedit.msc</b></p>
-- Click Start
-- Cari aplikasi "Run.exe"
-- Isi dengan "gpedit.msc"
-- Selanjutnya "OK" 
+<ul>
+<li>Click Start</li>
+<li>Cari aplikasi "Run.exe"</li>
+<li>Isi dengan "gpedit.msc"</li>
+<li>Selanjutnya "OK" </li>
+</ul>
 <br>
-maka akan muncul jendela "Group Policy Editor"
+<p>maka akan muncul jendela "Group Policy Editor"</p>
 <br>
-- Open Computer Configuration
-- Windows Settings
-- Security Settings
-- Local Policies
-- Security Options
-- Accounts: Limit local account use of blank passwords to console logon only
+<ul>
+<li>Open Computer Configuration</li>
+<li>Windows Settings</li>
+<li>Security Settings</li>
+<li>Local Policies</li>
+<li>Security Options</li>
+<li>Accounts: Limit local account use of blank passwords to console logon only</li>
+</ul>
 <br>
-ubah nilainya menjadi "Disabled" kemudia "OK".
+<p>ubah nilainya menjadi "Disabled" kemudia "OK".</p>
 <br>
-- tutup "Group Policy Editor".
+<p>tutup "Group Policy Editor".</p>
 
 
 <br>
-<p><b>menggunakan Regedit.exe</b></p>
+<p><b>menggunakan regedit.exe</b></p>
+{% highlight batch %}
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa]
 "LimitBlankPasswordUse"=dword:00000000
+{% endhighlight %}
 <br>
-
-Tapi jika cara diatas tidak berhasil anda lakukan, sebaiknya buat password windows.
-Itu lebih baik.
+<p>Tapi jika cara diatas tidak berhasil anda lakukan, sebaiknya buat password windows.
+Itu lebih baik.</p>
 </div>
 
 
