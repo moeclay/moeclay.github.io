@@ -54,7 +54,7 @@ sed '1,3 s/unix/linux/' geekfile.txt
 #replace dari baris ke berapa sampai akhir 
 sed '2,$ s/unix/linux/' geekfile.txt
 
-#hapus baris ke 2
+#hapus baris ke-2
 sed '2d' geekfile.txt
 
 #hapus baris berdasar range tertentu
