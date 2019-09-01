@@ -19,9 +19,51 @@ sed OPTIONS pola_script nama_file
 {% endhighlight %}
 
 <div>
-Buatlah file txt berupa:<br>
-unix is great os. unix is opensource. unix is free os.
-learn operating system.
-unix linux which one you choose.
-unix is easy to learn.unix is a multiuser os.Learn unix .unix is a powerful.
+<p><b>Buatlah file txt berupa: file.txt</b></p>
+<p>unix is great os. unix is opensource. unix is free os.</p>
+<p>learn operating system.</p>
+<p>unix linux which one you choose.</p>
+<p>unix is easy to learn.unix is a multiuser os.Learn unix .unix is a powerful.</p>
 </div>
+
+<p><b>Beberapa Script Dasar SED</b></p>
+{% highlight bash %}
+#ganti semua awal kalimat unix -> linux
+sed 's/unix/linux/' geekfile.txt
+
+#ganti kata ke 2 saja
+sed 's/unix/linux/2' geekfile.txt
+
+#ganti unix -> linux baris ke 3 saja, hanya 1 kata
+sed '3 s/unix/linux/' geekfile.txt
+
+#ganti keseluruan global
+sed 's/unix/linux/g' geekfile.txt
+
+#ganti dari kata ke-3 sampai seturusnya
+sed 's/unix/linux/3g' geekfile.txt
+
+#mengurungkan setiap awal kata
+echo "Welcome To The Geek Stuff" | sed 's/\(\b[A-Z]\)/\(\1\)/g'
+
+#replace & output duplikat
+sed 's/unix/linux/p' geekfile.txt
+
+#replace berdasarkan range baris
+sed '1,3 s/unix/linux/' geekfile.txt
+
+#replace dari baris ke berapa sampai akhir 
+sed '2,$ s/unix/linux/' geekfile.txt
+
+#hapus baris ke 2
+sed '2d' geekfile.txt
+
+#hapus baris berdasar range tertentu
+sed '2,4d' geekfile.txt
+
+#hapus baris sampai terakhir
+sed '2,$d' geekfile.txt
+
+#baris kalimat yang mengandung 'kata'
+sed '/learn/d' geekfile.txt
+{% highlight %}
