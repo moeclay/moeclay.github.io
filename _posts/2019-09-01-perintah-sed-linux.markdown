@@ -10,5 +10,18 @@ categories: bash
 	<p><b>Perintah SED di UNIX</b></p>
 	<p>SED adalah singkatan dari stream editor dan dapat melakukan banyak fungsi pada file seperti: mencari, menemukan, menyisipkan, mengganti atau menghapus.</p>
 	<p>Dengan SED anda dapat mengedit file tanpa membukanya.</p>
-	<p>SED menddukung ekspresi regular yang memungkinkan melakukan pencocokan pola yang kompleks.</p>
+	<p>SED mendukung ekspresi regular yang memungkinkan melakukan pencocokan pola yang kompleks.</p>
+</div>
+
+<p><b>Syntak: </b></p>
+{% highlight bash %}
+sed OPTIONS pola_script nama_file
+{% endhighlight %}
+
+<div>
+Buatlah file txt berupa:<br>
+unix is great os. unix is opensource. unix is free os.
+learn operating system.
+unix linux which one you choose.
+unix is easy to learn.unix is a multiuser os.Learn unix .unix is a powerful.
 </div>
