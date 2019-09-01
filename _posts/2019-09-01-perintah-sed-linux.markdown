@@ -6,4 +6,9 @@ author: doctor. moeclay
 categories: bash
 ---
 
-Hallo Tes Post Linux - Markdown
+<div>
+	<p><b>Perintah SED di UNIX</b></p>
+	<p>SED adalah singkatan dari stream editor dan dapat melakukan banyak fungsi pada file seperti: mencari, menemukan, menyisipkan, mengganti atau menghapus.</p>
+	<p>Dengan SED anda dapat mengedit file tanpa membukanya.</p>
+	<p>SED menddukung ekspresi regular yang memungkinkan melakukan pencocokan pola yang kompleks.</p>
+</div>
