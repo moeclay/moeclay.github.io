@@ -16,7 +16,7 @@ permalink: /portfolio/
             <div class="main">
                 <div class="pict">
                     <!-- menampilkan data drive ke html with uc?id= -->
-                    <p class="photo"><img src="https://drive.google.com/uc?id=120HTFGCXstHy1W15WrFJX7ykMmj3wVrK" title="Moeamar Reza R"></p>
+                    <p class="photo"><img style="width: 300px; height:auto; border: 5px solid #fff" src="https://drive.google.com/uc?id=120HTFGCXstHy1W15WrFJX7ykMmj3wVrK" title="Moeamar Reza R"></p>
                     <div class="pict_info">
                         <h3>Profil Info : </h3>
                         <p class="detail">Nama &nbsp;: Moeamar Reza Romdhoni</p>
