@@ -1,0 +1,236 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+ 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.content {
+    color: white;
+    overflow: auto;
+    padding: 5px;
+    margin : 10px 20px;
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,.3);
+}
+
+/* Header */
+.header {
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+    min-height: 50px;
+}
+
+.header h3 {
+    float: left;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.header ul {
+    float: right;
+    list-style: none;
+}
+
+.header ul li {
+    text-align: center;
+    float: left;
+    border: 2px solid #555;
+    margin: 0 5px;
+    border-radius: 10%;
+}
+.header ul li:hover {
+    background-color: #5e5f5f;
+}
+.header ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 0px 10px;
+    line-height: 35px;
+    color: #555;
+}
+.header ul li a:hover {
+    color: #fff;
+}
+
+/* Jumbotron */
+.jumbotron {
+    clear: both;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    padding: 40px 40px;
+    box-sizing:  border-box;
+    color: white;
+    background-color: #aaa;
+}
+
+/* Main */
+.main .pict {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    background-color: #555 !important;
+    width: 25%;
+    height: 550px;
+    float: left;
+    color: #fff;
+    overflow-y: hidden;
+}
+.main .pict .photo {
+    text-align: center;
+}
+.main .pict img {
+    padding: 5px;
+    width: 200px;
+    border-radius: 15%;
+    border: 5px solid #fff;
+    cursor: pointer;
+}
+
+.main .pict .pict_info h3 {
+    margin-top: 25px;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.main .pict .pict_info p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px dotted #ddd;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.main .info {
+    width: 75%;
+    height: 550px;
+    background-color: #555 !important;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    color: #fff;
+    overflow-y: hidden;
+}
+.main .info h3 {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+}
+.main .info p {
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Footer Page */
+.footer {
+    clear: both;
+    text-align: center;
+    padding: 3px;
+}
+.footer h4{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #555;
+}
+.footer a {
+    margin: 5px 5px;
+}
+
+@media screen and (min-width: 250px) {
+    .header, .jumbotron, .main .pict, .main .info, .footer {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .content {
+        overflow-x: hidden;
+    }
+    .header {
+        width: 100%;
+    }
+    .jumbotron {
+        width: 100%;
+    }
+    .main .pict {
+        width: 25%;
+    }
+    .main .info {
+        width: 75%;
+    }
+    .footer {
+        width: 100%;
+    }
+ }
+
+ 
+/*untuk layar device berukuran besar*/
+@media screen and (min-width: 800px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* animation text */
+.animasi {
+    font-weight: bold;
+    font-size: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: mengetik 5s steps(500) infinite;
+  }
+  
+@keyframes mengetik{   
+    from{ width: 0px;}
+}
+
+.perbesar {
+    position: absolute;
+    width: 300px;
+    height: 480px;
+    top: 50%;
+    left: 50%;
+    margin-top: -230px;
+    margin-left: -150px;
+    z-index: 5;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #aaa;
+    box-shadow: 0 0 5px #ccc;
+    background: #fff;
+}
+.perbesar img {
+    width: 300px;
+    height: auto;
+}
+.perbesar p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.perbesar .tutup {
+    background-color: #555;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    cursor: pointer;
+    padding: 2px 6px;
+    border: 2px solid #555;
+    border-radius: 10% 10%;
+}
