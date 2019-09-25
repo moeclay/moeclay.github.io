@@ -1,18 +1,7 @@
 ---
-permalink: /portfolio
+permalink: /portfolio/
 ---
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-</head>
-<body>
-    <div class="container">
+<div class="container">
         <div class="content">
             <!-- header -->
             <div class="header">
@@ -55,16 +44,5 @@ permalink: /portfolio
                     <p>Terima Kasih, Demikian cerita singkat saya.</p>
                 </div>
             </div>
-
-            <!-- footer -->
-            <div class="footer">
-                <h4>Temukan di Social Media</h4>
-                <div class="social"></div>
-            </div>
         </div>
     </div>
-
-    <!-- javascript -->
-    <script src="script.js"></script>
-</body>
-</html>
