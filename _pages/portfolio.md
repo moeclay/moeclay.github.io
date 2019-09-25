@@ -3,14 +3,6 @@ permalink: /portfolio/
 ---
 <div class="container">
         <div class="content">
-            <!-- header -->
-            <div class="header">
-                <h3>My Portfolio</h3>
-                <ul>
-                    <li><a href="https://wa.me/6281294084644/?text=Hello%20Reza">WhatsApp</a></li>
-                    <li><a href="https://www.messenger.com/t/moe.clay.io">Messager</a></li>
-                </ul>
-            </div>
             
             <!-- jumbotron -->
             <div class="jumbotron">
@@ -23,7 +15,8 @@ permalink: /portfolio/
             <!-- main -->
             <div class="main">
                 <div class="pict">
-                    <p class="photo"><img src="images/photo.jpg" title="Moeamar Reza R"></p>
+                    <!-- menampilkan data drive ke html with uc?id= -->
+                    <p class="photo"><img src="https://drive.google.com/uc?id=120HTFGCXstHy1W15WrFJX7ykMmj3wVrK" title="Moeamar Reza R"></p>
                     <div class="pict_info">
                         <h3>Profil Info : </h3>
                         <p class="detail">Nama &nbsp;: Moeamar Reza Romdhoni</p>
