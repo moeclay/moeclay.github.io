@@ -27,6 +27,17 @@ $ git push -u origin master
 {% endhighlight %}
 
 
+<p><b>Add Domain to Heroku</b></p>
+{% highlight bash %}
+# tambahkan ke dns management
+<empty> or @   ALIAS or CNAME 	 hidden-sierra-7936.herokudns.com.
+
+# tambahkan ke heroku
+$ heroku domains:add example.com,
+$ heroku domains:add www.example.com
+{% endhighlight %}
+
+
 <p><b>Buat Repository Baru:</b></p>
 {% highlight bash %}
 $ git init
