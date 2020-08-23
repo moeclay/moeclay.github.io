@@ -6,13 +6,26 @@ author: doctor. moeclay
 categories: github
 ---
 <p><b>Dokumentasi Default Git & Heroku</b></p>
-```bash
-# login heroku
+{% highlight bash %}
+# heroku | login
 $ heroku login 
 
-# cloning projek
+# heroku | cloning projek
 $ heroku git:clone -a myapp
-```
+
+# git | tambah baru
+$ echo "# API >> README.md"
+$ git init
+$ git add README.md
+$ git commit -m "first commit"
+$ git remote add origin https://github.com/moeclay/api.git
+$ git push -u origin master
+
+# git | remote repo
+$ git remote add origin https://github.com/moeclay/api.git
+$ git push -u origin master
+{% endhighlight %}
+
 
 <p><b>Buat Repository Baru:</b></p>
 {% highlight bash %}
