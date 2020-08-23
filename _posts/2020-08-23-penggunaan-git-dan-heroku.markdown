@@ -1,10 +1,18 @@
 ---
 layout: post
-title: Penggunaan GIT
-date: 2019-08-19 14:00:00
+title: Penggunaan GIT dan HEROKU
+date: 2020-08-23 20:29:00
 author: doctor. moeclay
 categories: github
 ---
+<p><b>Dokumentasi Default Git & Heroku</b></p>
+```bash
+# login heroku
+$ heroku login 
+
+# cloning projek
+$ heroku git:clone -a myapp
+```
 
 <p><b>Buat Repository Baru:</b></p>
 {% highlight bash %}
