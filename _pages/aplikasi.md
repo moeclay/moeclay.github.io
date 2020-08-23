@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Aplikasi
-permalink: /aplikasi
+title: Laravel
+permalink: /laravel
 ---
 
-<p>Beberapa aplikasi yang saya berhasil buat: </p>
+<p><b>Dokumentasi Laravel Framework</b></p>
