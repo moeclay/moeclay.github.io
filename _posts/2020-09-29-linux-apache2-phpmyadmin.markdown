@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Install phpmyadmin linux server apache2
-date: 2020-08-23 20:29:00
+date: 2020-09-29 17:05:00
 author: doctor. moeclay
 categories: webserver
 ---
